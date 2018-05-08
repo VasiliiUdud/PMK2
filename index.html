@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8" />
+        <title>Bitcoin inform</title>7 <style>
+  body{
+  background:#c0c0c0;  /*меняется фон экрана, выбирается здесь.*/
+ }
+
+ /*Оболочка контента*/
+
+ #wrapper{
+   width: 900px;  /*меняется ширина страницы*/
+   margin: 0 auto;
+   background:#f2e8c9;  /*меняется фон страницы*/
+ }
+
+ /*Шапка сайта*/
+
+ #header{
+   height: 250px;  /*высота шапки*/
+   background-color: #ffffff;  /*фон шапки*/
+    margin-bottom: 5px;  /*отступ шапки от текста*/
+ /* border-radius */  /*закруглённые углы*/
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   border-radius: 5px;  /*меняется радиус закругления*/
+ /* box-shadow */
+   -webkit-box-shadow: rgba(0,0,0,0.2) 0px 1px 3px;
+   -moz-box-shadow: rgba(0,0,0,0.2) 0px 1px 3px;
+   box-shadow: rgba(0,0,0,0.5) 0px 1px 3px;  /*меняется величина тени*/
+ }
+ img{  /*картинка в шапке*/
+   float:left;
+   margin-top: -138px;}  /*двигается выше-ниже*/
+ h1{
+   margin:0 0 10px 40px;  /*заголовок двигается верх-вправо-вниз-влево*/
+   color:#464451;  /*цвет заголовка*/
+ }
+ .nomer{   /*подзаголовок (номер телефона)*/
+   position:relative;
+   top:-45px;  /*двигается вверх-вниз*/
+   left:680px;  /*двигается вправо-влево*/
+   font-size: 25px;  /*размер букв*/
+   font-style:italic;  /*курсив*/
+   font-weight:bold;  /*жирный*/
+   color:#464451;  /*цвет текста*/
+ }
+
+ /*Сайдбар (колонка справа)*/
+
+ #sidebar{
+   background-color: #ffffff;  /*фон блока*/
+   width: 180px; - ширина блока
+   padding: 10px;  /*отступ текста от краёв*/
+   float: right;
+ /* border-radius */  /*блок с закруглёнными углами и тенью*/
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   border-radius: 5px;
+ /* box-shadow */
+   -webkit-box-shadow: rgba(0,0,0,0.2) 0px 1px 3px;
+   -moz-box-shadow: rgba(0,0,0,0.2) 0px 1px 3px;
+   box-shadow: rgba(0,0,0,0.5) 0px 1px 3px;
+ }
+ .marcer{  /*маркеры галочки*/
+   float: left;
+   margin: 5px 5px 0 0;   /*двигаются вверх-вправо-вниз-влево*/
+ }
+ /*Cатья*/
+ #content{
+   margin-bottom: 5px;  /*отступ статьи от подвала*/
+   width: 676px;  /*ширина статьи*/
+   padding: 10px;  /*отступ текста от краёв*/
+   background: #ffffff;  /*фон статьи*/
+ /* border-radius */  
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   border-radius: 5px;
+ /* box-shadow */
+   -webkit-box-shadow: rgba(0,0,0,0.2) 0px 1px 3px;
+   -moz-box-shadow: rgba(0,0,0,0.2) 0px 1px 3px;
+   box-shadow: rgba(0,0,0,0.5) 0px 1px 3px;
+ }
+ .left{  /*картинка в тексте слева*/
+   float: left;
+   margin: 30px 7px 7px 7px; 
+ }
+ .right{  /*картинка в тексте справа*/
+   float: right;
+   margin: 7px 0 7px 7px;
+ }
+ /*Подвал*/
+ #footer{
+   height:80px;  /*высота подвала*/
+   background-color: #ffffff;  /*фон подвала*/
+   margin-bottom: 10px;  /*отступ снизу*/
+ /* border-radius */
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   border-radius: 5px;
+ /* box-shadow */
+   -webkit-box-shadow: rgba(0,0,0,0.2) 0px 1px 3px;
+   -moz-box-shadow: rgba(0,0,0,0.2) 0px 1px 3px;
+   box-shadow: rgba(0,0,0,0.5) 0px 1px 3px;
+}
+ .clear{  /*запрет наплывания*/
+   clear: both;
+ }
+   .fon{  /*номер телефона*/
+   float:left;
+   margin:20px 0 0 20px;
+ }
+ .fax{  /*номер факса*/
+   float:left;
+   margin:20px 0 0 60px;
+ }
+ .mail{  /*адрес E-mail*/
+   float:left;
+   margin:20px 0 0 60px;
+ }
+ </style>
+</head>
+ <body>
+   <div id="wrapper">  <!--Оболочка-->
+     <div id="header">  <!--Шапка-->
+       <h1>Bitcoin</h1>
+         <p class="nomer"> <br></p>
+       <img src="">  <!--Картинка в шапке-->
+     </div>
+     <div id="sidebar"> 
+       <h3>На сайте</h3>   <!--меню-->
+         <p><img class="marcer" src="http://trueimages.ru/img/99/91/dea39f15.png" width="10" height="10">1</p>
+        <p><img class="marcer" src="http://trueimages.ru/img/99/91/dea39f15.png" width="10" height="10">2</p>
+         <p><img class="marcer" src="http://trueimages.ru/img/99/91/dea39f15.png" width="10" height="10">3</p>
+           <hr width="50" color="#037FFC" size="5"> 
+       <h3>Другая информация</h3> 
+     </div>
+     <div id="content"> 
+       <img class="left" src="">  <!--Картинка слева-->
+         <h3>Bitcoin.Что это.</h3>
+ <p>Как определить биткоин (bitcoin, btc, бтк, биткойн) простыми словами? Это новое поколение децентрализованной цифровой валюты, созданной и работающей только в сети интернет. Её никто не контролирует, эмиссия валюты происходит посредством работы миллионов компьютеров по всему миру с использованием программы для вычисления математических алгоритмов. Именно в этом заключается суть биткоина.
+ </p>
+ <p>За биткоины так же можно покупать всё что угодно в интернете, как за доллары, евро или рубли, и он так же торгуется на биржах. Наиболее важное отличие биткоина от всех остальных форм денег — децентрализация. Ни одно учреждение в мире не контролирует биткоин. В плане независимости это плюс, но у некоторых такая ситуация может вызывать недоверие.
+ </p>
+ <p>Кто создал биткоин?
+Разработчик программы зовёт себя Сатоши Накамото (Satoshi Nakamoto), он предложил электронную платёжную систему, основанную на математических вычислениях. Идея состояла в том, чтобы вести обмен монетами без централизованного контроля, в электронном виде, более или менее мгновенно и с наименьшими издержками.
+</p>
+ <p>Можно ли добыть миллиард биткоинов?
+Нельзя. В коде биткоина стоит ограничение: добыть можно максимум 21 млн. биткоинов. При этом биткоин может делиться до бесконечности на более мелкие части — это же цифровая валюта! Один сатоши (назван в честь создателя этой криптовалюты) — это 0.00000001 btc.
+</p>
+
+       <img class="right" src="">  <!--Картинка справа-->
+
+ <p></p>
+     </div>
+  <div class="clear"></div> <!--Запрет наплывания-->
+     <div id="footer">
+       
+
+     </div>
+   </div>
+</body>
+ </html>
